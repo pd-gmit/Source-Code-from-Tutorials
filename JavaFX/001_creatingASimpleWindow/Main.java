@@ -13,7 +13,9 @@ public class Main extends Application {
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) throws Exception {  //The JavaFX Stage class is the top level JavaFX container. 
+                                                               //A Window might be a Stage, PopupWindow, or other such top level. 
+                                                                //A Window is used also for browser plug-in based deployments.
         primaryStage.setTitle("Title of the Window");
         button = new Button();
         button.setText("Click me");
