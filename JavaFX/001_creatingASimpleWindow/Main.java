@@ -19,7 +19,7 @@ public class Main extends Application {
         button.setText("Click me");
         StackPane layout = new StackPane();
         layout.getChildren().add(button);
-        Scene scene = new Scene(layout, 300, 250);  //the container for all the scene's content
+        Scene scene = new Scene(layout, 300, 250);  //The "scene"is the container for *all* the content in a "scene graph"
         primaryStage.setScene(scene);
         primaryStage.show();
     }
